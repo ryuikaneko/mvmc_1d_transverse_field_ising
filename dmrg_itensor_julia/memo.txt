@@ -1,0 +1,2 @@
+#import Pkg; Pkg.add("ITensorMPS")
+JULIA_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 julia --threads=1 scan_hx_with_variance.jl 2>&1 | tee _log_scan_hx

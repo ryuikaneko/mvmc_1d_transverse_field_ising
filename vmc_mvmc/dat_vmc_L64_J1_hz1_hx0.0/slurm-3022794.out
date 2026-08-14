@@ -1,0 +1,75 @@
+Tue Aug 11 23:01:56 JST 2026
+Date              = Tue Aug 11 23:01:56 JST 2026
+Hostname          = c15u02n3
+Working Directory = /home/k0031/k003123/work/test_20260811_3_tfising_inc_smp/dat_vmc_L64_J1_hz1_hx0.0
+
+Number of Nodes Allocated      = 8
+Number of Tasks Allocated      = 256
+Number of Cores/Task Allocated = 4
+Start: Read *def files.
+  Read File namelist_aft.def .
+Start: Read ModPara File .
+End: Read ModPara File .
+  Read File 'modpara_aft.def' for ModPara.
+  Read File 'locspn.def' for LocSpin.
+  Read File 'trans.def' for Trans.
+  Read File 'orbitalgeneralidx.def' for OrbitalGeneral.
+  Read File 'qptransidx.def' for TransSym.
+  Read File './output/zqp_orbital_general_opt.dat' for InOrbitalGeneral.
+  Read File 'interall.def' for InterAll.
+End  : Read *def files.
+Start: Read parameters from *def files.
+     locspn.def
+     trans.def
+     orbitalgeneralidx.def
+     qptransidx.def
+     ./output/zqp_orbital_general_opt.dat
+     interall.def
+finish reading parameters.
+End  : Read parameters from *def files.
+Start: Set memories.
+End  : Set memories.
+Start: Initialize parameters.
+Read InOrbitalGeneral File. 
+End  : Initialize parameters.
+Start: Initialize variables for quantum projection.
+End  : Initialize variables for quantum projection.
+Start: Calculate VMC physical quantities.
+Start: UpdateSlaterElm.
+End  : UpdateSlaterElm.
+Start: Sampling.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Calculate VMC physical quantities.
+Start: Free Memory.
+End: Free Memory.
+Finish calculation.
+Tue Aug 11 23:02:17 JST 2026

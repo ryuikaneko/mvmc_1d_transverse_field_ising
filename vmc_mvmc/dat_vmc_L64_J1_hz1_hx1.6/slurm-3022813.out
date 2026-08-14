@@ -1,0 +1,130 @@
+Tue Aug 11 23:53:21 JST 2026
+Date              = Tue Aug 11 23:53:21 JST 2026
+Hostname          = c15u01n1
+Working Directory = /home/k0031/k003123/work/test_20260811_3_tfising_inc_smp/dat_vmc_L64_J1_hz1_hx1.6
+
+Number of Nodes Allocated      = 8
+Number of Tasks Allocated      = 256
+Number of Cores/Task Allocated = 4
+Start: Read *def files.
+  Read File namelist.def .
+Start: Read ModPara File .
+End: Read ModPara File .
+  Read File 'modpara.def' for ModPara.
+  Read File 'locspn.def' for LocSpin.
+  Read File 'trans.def' for Trans.
+  Read File 'orbitalgeneralidx.def' for OrbitalGeneral.
+  Read File 'qptransidx.def' for TransSym.
+  Read File 'inorbitalgeneral.def' for InOrbitalGeneral.
+  Read File 'interall.def' for InterAll.
+End  : Read *def files.
+Start: Read parameters from *def files.
+     locspn.def
+     trans.def
+     orbitalgeneralidx.def
+     qptransidx.def
+     inorbitalgeneral.def
+     interall.def
+finish reading parameters.
+End  : Read parameters from *def files.
+Start: Set memories.
+End  : Set memories.
+Start: Initialize parameters.
+Read InOrbitalGeneral File. 
+End  : Initialize parameters.
+Start: Initialize variables for quantum projection.
+End  : Initialize variables for quantum projection.
+Start: Optimize VMC parameters.
+Progress of Optimization: 0 %.
+Progress of Optimization: 5 %.
+Progress of Optimization: 10 %.
+Progress of Optimization: 15 %.
+Progress of Optimization: 20 %.
+Progress of Optimization: 25 %.
+Progress of Optimization: 30 %.
+Progress of Optimization: 35 %.
+Progress of Optimization: 40 %.
+Progress of Optimization: 45 %.
+Progress of Optimization: 50 %.
+Progress of Optimization: 55 %.
+Progress of Optimization: 60 %.
+Progress of Optimization: 65 %.
+Progress of Optimization: 70 %.
+Progress of Optimization: 75 %.
+Progress of Optimization: 80 %.
+Progress of Optimization: 85 %.
+Progress of Optimization: 90 %.
+Progress of Optimization: 95 %.
+Start: Output opt params.
+End: Output opt params.
+End  : Optimize VMC parameters.
+Start: Free Memory.
+End: Free Memory.
+Finish calculation.
+Start: Read *def files.
+  Read File namelist_aft.def .
+Start: Read ModPara File .
+End: Read ModPara File .
+  Read File 'modpara_aft.def' for ModPara.
+  Read File 'locspn.def' for LocSpin.
+  Read File 'trans.def' for Trans.
+  Read File 'orbitalgeneralidx.def' for OrbitalGeneral.
+  Read File 'qptransidx.def' for TransSym.
+  Read File './output/zqp_orbital_general_opt.dat' for InOrbitalGeneral.
+  Read File 'interall.def' for InterAll.
+End  : Read *def files.
+Start: Read parameters from *def files.
+     locspn.def
+     trans.def
+     orbitalgeneralidx.def
+     qptransidx.def
+     ./output/zqp_orbital_general_opt.dat
+     interall.def
+finish reading parameters.
+End  : Read parameters from *def files.
+Start: Set memories.
+End  : Set memories.
+Start: Initialize parameters.
+Read InOrbitalGeneral File. 
+End  : Initialize parameters.
+Start: Initialize variables for quantum projection.
+End  : Initialize variables for quantum projection.
+Start: Calculate VMC physical quantities.
+Start: UpdateSlaterElm.
+End  : UpdateSlaterElm.
+Start: Sampling.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Sampling.
+Start: Main calculation.
+End  : Main calculation.
+End  : Calculate VMC physical quantities.
+Start: Free Memory.
+End: Free Memory.
+Finish calculation.
+Wed Aug 12 00:00:48 JST 2026

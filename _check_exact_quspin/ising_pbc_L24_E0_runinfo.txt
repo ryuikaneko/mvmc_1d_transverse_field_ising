@@ -1,0 +1,20 @@
+Hamiltonian: -J sum XX - hx sum X - hz sum Z, PBC
+L=24
+J=1
+hz=1
+hx_min=0
+hx_max=2
+dhx=0.02
+number_of_points=101
+sector=k0,p+1
+basis_Ns=352698
+H0_nnz=8683279
+Hx_nnz=8392504
+rss_start_GiB=0.099621
+rss_after_build_GiB=1.178776
+observed_peak_rss_GiB=1.433937
+build_seconds=9.316597
+python=3.10.15
+numpy=1.21.6
+scipy=1.11.2
+platform=macOS-12.7.6-x86_64-i386-64bit

@@ -128,7 +128,7 @@ def main():
     plt.rcParams.update(
         {
             "font.size": 25,
-            "axes.labelsize": 25,
+            "axes.labelsize": 30,
             "xtick.labelsize": 25,
             "ytick.labelsize": 25,
             "legend.fontsize": 25,
@@ -353,7 +353,7 @@ def main():
         ncols=1,
         sharex=True,
 #        figsize=(8.0, 8.0),
-        figsize=(10.5, 4.5),
+        figsize=(10.75, 4.0),
         gridspec_kw={
             "height_ratios": [1.0, 1.0, 1.0],
             "hspace": 0.0,
@@ -404,8 +404,8 @@ def main():
     legend = ax_energy.legend(
         loc="upper right",
         borderpad=0.0,
-        labelspacing=0.05,
-        borderaxespad=0.3,
+        labelspacing=0.0,
+        borderaxespad=0.225,
         frameon=False,
         handler_map={
             ErrorbarContainer: HandlerErrorbarBarsAbove(
